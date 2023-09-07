@@ -9,6 +9,7 @@ nav:
 theme:
   name: material
   features:
+    - toc.integrate
     - navigation.tabs
     - navigation.sections
     - toc.integrate
@@ -45,8 +46,6 @@ plugins:
 #       link: https://www.linkedin.com/in/willettjames/
 
 markdown_extensions:
-  - toc:
-      permalink: true
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
