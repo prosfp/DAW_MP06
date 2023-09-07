@@ -1,4 +1,5 @@
 site_name: DAW-MP6 Des. Web Entorn Client (Fron-End)
+
 theme:
   name: material
   features:
@@ -38,6 +39,8 @@ plugins:
 #       link: https://www.linkedin.com/in/willettjames/
 
 markdown_extensions:
+  - toc:
+      permalink: true
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
