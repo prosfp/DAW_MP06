@@ -59,9 +59,10 @@ markdown_extensions:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg # Page tree
 
+
 nav:
   - Inici: index.md
   - UF 1 Sintaxi i objectes predefinits del llenguatge:
-      - Selecció d'arquitectures i eines de programació: UF1/UF1.md
-      - Aplicació i verificació de la sintaxi del llenguatge: UF1/UF2.md
-      - Aplicació i verificació de la sintaxi del llenguatge: UF1/UF3.md
+      - Selecció d'arquitectures i eines de programació: UF1/UF1.1.md
+      - Aplicació i verificació de la sintaxi del llenguatge: UF1/UF1.2.md
+      - Aplicació i verificació de la sintaxi del llenguatge: UF1/UF1.3.md
