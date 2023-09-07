@@ -10,24 +10,17 @@ JavaScript és un llenguatge de programació de scripts que s'usa principalment 
 
 ECMAScript és una especificació estàndard per a llenguatges de programació de scripts, i JavaScript es basa en aquest estàndard. Això garanteix la consistència en el comportament de JavaScript entre diferents navegadors.
 
-## Ús de la Consola Web i el Borrador
+## Què aprendrem?
 
-Per a fer petits exercicis en JavaScript, aquest article ens suggereix utilitzar dues eines: la **Consola Web** i el **Borrador**.
+En aquest curs, aprendràs els fonaments de la programació amb la sintaxi de JavaScript. Els conceptes que es tracten en aquest curs establixen les bases per utilitzar JavaScript en qualsevol entorn.
 
-La Consola Web es troba a tots els navegadors importants com Edge, Chrome, Firefox, Opera i Safari.
+Després d'aquest curs, seràs capaç de:
 
-En aquests moments, el Borrador només està disponible a Firefox.
-
-## Alternatives al Borrador de Firefox
-
-Una alternativa al Borrador de Firefox són les eines que permeten l'execució en línia de JavaScript. Recomanem l'ús de **JavaScript Tutor** ja que permet visualitzar l'execució dels programes pas a pas, la qual cosa és molt útil per aprendre i comprendre com funcionen.
-
-## Exemple de Variables en JavaScript
-
-A continuació, veiem un exemple senzill de com declarar i utilitzar variables en JavaScript:
-
-```javascript
-let texto1 = "Hola";
-let texto2 = "Món";
-console.log(texto1 + " " + texto2);
-```
+- Implementar els tipus de dades de JavaScript, els mètodes incorporats i les variables.
+- Utilitzar condicionals per controlar el flux d'un programa en JavaScript.
+- Construir funcions i passar dades a través d'elles.
+- Identificar àmbits globals i de bloc en JavaScript.
+- Utilitzar arrays per emmagatzemar llistes de dades.
+- Utilitzar bucles per executar blocs de codi diverses vegades.
+- Utilitzar mètodes d'iteració per simplificar el procés de recórrer arrays.
+- Utilitzar la sintaxi d'objectes JavaScript ES6 per modelar elements del món real.
