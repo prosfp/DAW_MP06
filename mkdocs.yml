@@ -1,10 +1,4 @@
 site_name: DAW-MP6 Des. Web Entorn Client (Fron-End)
-nav:
-  - Inici: "index.md"
-  - UF 1 Arquitectures i eines de programació: "/UF1/UF1.1/index.md"
-  - UF 2 Arquitectures i eines de programació:
-  - UF 3 Arquitectures i eines de programació:
-  - UF 4 Arquitectures i eines de programació:
 
 theme:
   name: material
@@ -19,6 +13,7 @@ theme:
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
+    # - toc.integrate
   language: ca
   palette:
     - scheme: default
@@ -46,6 +41,8 @@ plugins:
 #       link: https://www.linkedin.com/in/willettjames/
 
 markdown_extensions:
+  - toc:
+      permalink: true
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
@@ -60,4 +57,11 @@ markdown_extensions:
   - attr_list
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_generator: !!python/name:materialx.emoji.to_svg # Page tree
+
+nav:
+  - Inici: index.md
+  - UF 1 Sintaxi i objectes predefinits del llenguatge:
+      - Selecció d'arquitectures i eines de programació: UF1/UF1.md
+      - Aplicació i verificació de la sintaxi del llenguatge: UF1/UF2.md
+      - Aplicació i verificació de la sintaxi del llenguatge: UF1/UF3.md
