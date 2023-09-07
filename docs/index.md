@@ -1,4 +1,4 @@
-# Homepage
+# Exemples d'ús MKDocs
 
 ## Code Annotation Examples
 
@@ -6,11 +6,11 @@
 
 ### Codeblocks
 
-Some `code` goes here. 
+Some `code` goes here.
 
 ### Plain codeblock
 
-A plain codeblock: 
+A plain codeblock:
 
 ```
 //Some code here
@@ -23,22 +23,21 @@ const hola = ()=>{
 
 Més codi amb `javascript` al començament:
 
-``` javascript
+```javascript
 // HELLO WORLD
-console.log('Hello, World!');
+console.log("Hello, World!");
 ```
 
 ### With a title
 
-``` javascript title="randomNumber.js"
+```javascript title="randomNumber.js"
 const a = Math.random();
 console.log(a);
 ```
 
 ### With numbers
 
-``` javascript linenums="1"
+```javascript linenums="1"
 const a = Math.random();
 console.log(a);
 ```
-
