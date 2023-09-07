@@ -1,4 +1,6 @@
-# JavaScript: Introducció a JS
+# Desenvolupament web en entorn client
+
+## JavaScript: Introducció a JS
 
 El primer article d'aquesta guia ens explica breument què és JavaScript i la seva "relació" amb Java. També ens parla de la especificació ECMAScript, que és l'estàndard en el qual es basa JavaScript. La diferenciació ve perquè a partir de l'estàndard podrien crear-se diferents versions de JavaScript. Nosaltres veurem el JavaScript estàndard que funcionarà sense problemes en tots els navegadors moderns.
 
