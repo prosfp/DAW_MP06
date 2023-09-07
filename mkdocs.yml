@@ -1,4 +1,10 @@
 site_name: DAW-MP6 Des. Web Entorn Client (Fron-End)
+nav:
+  - Inici: "index.md"
+  - UF 1 Arquitectures i eines de programació: "/UF1/UF1.1/index.md"
+  - UF 2 Arquitectures i eines de programació:
+  - UF 3 Arquitectures i eines de programació:
+  - UF 4 Arquitectures i eines de programació:
 
 theme:
   name: material

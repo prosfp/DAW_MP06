@@ -1,8 +1,10 @@
-# Manipulació de Dades en JavaScript
+# Aplicació i verificació de la sintaxi del llenguatge
+
+## Manipulació de Dades en JavaScript
 
 En JavaScript, podem manipular dades de diverses maneres. En aquesta secció, explorarem com imprimir dades, escriure comentaris i els set tipus fonamentals de dades en JavaScript.
 
-## Imprimir Dades a la Consola
+### Imprimir Dades a la Consola
 
 Per imprimir dades a la consola en JavaScript, utilitzem la funció `console.log()`. Aquesta funció és útil per depurar i mostrar missatges. Aquí tens un exemple:
 
@@ -12,7 +14,7 @@ console.log("Aquest és un missatge de prova.");
 
 Aquest codi imprimirà el missatge "Aquest és un missatge de prova." a la consola.
 
-## Comentaris en JavaScript
+### Comentaris en JavaScript
 
 Els comentaris són útils per documentar el teu codi i fer-lo més llegible. JavaScript permet dos tipus de comentaris:
 
@@ -31,7 +33,7 @@ de múltiples línies
 _/
 ```
 
-## Tipus de Dades Fonamentals
+### Tipus de Dades Fonamentals
 
 JavaScript té set tipus de dades fonamentals:
 
@@ -43,7 +45,7 @@ JavaScript té set tipus de dades fonamentals:
 6. **Symbol (Símbol):** S'utilitza per a la creació de símbols únics.
 7. **Objecte (Objecte):** S'utilitza per emmagatzemar col·leccions de dades i funcions.
 
-## Operadors Aritmètics Bàsics
+### Operadors Aritmètics Bàsics
 
 L'aritmètica bàsica sovint és molt útil quan programem.
 
@@ -73,7 +75,49 @@ console.log(12 % 3); // Imprimeix 0
 
 L'operador de resta, a vegades anomenat mòdul o resta, retorna el número que queda després que el número de la dreta es divideixi pel número de l'esquerra tantes vegades com pugui de manera uniforme: 11 % 3 és igual a 2 perquè 3 s'ajusta a 11 tres vegades, deixant 2 com a residu.
 
-## Recursos externs
+### Recursos externs
 
 - [Codecademy - Tipus de Dades en JavaScript](https://www.codecademy.com/resources/docs/javascript/data-types?page_ref=catalog)
 - [MDN Web Docs - Estructures de Dades JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
+
+## Declaració de Variables en JavaScript: `var`, `let` i `const`
+
+En JavaScript, les variables són utilitzades per emmagatzemar dades. Hi ha diferents maneres de declarar variables, com `var`, `let`, i `const`, i cadascuna té les seves particularitats. En aquesta pàgina, explorarem com declarar variables i les diferències clau entre `var`, `let`, i `const`.
+
+### `var`: Declaració de Variables Tradicional
+
+```javascript
+function exempleVar() {
+  var x = 10;
+  if (true) {
+    var x = 20; // Aquesta x substitueix la primera x
+  }
+  console.log(x); // Imprimeix 20
+}
+```
+
+### `let`: Declaració de Variables Bloc
+
+```javascript
+function exempleLet() {
+  let y = 30;
+  if (true) {
+    let y = 40; // Aquesta y és diferent de la primera y
+  }
+  console.log(y); // Imprimeix 30
+}
+```
+
+### `const`: Declaració de Constants
+
+```javascript
+function exempleConst() {
+  const z = 50;
+  if (true) {
+    // No es pot fer això: z = 60; (dóna error)
+  }
+  console.log(z); // Imprimeix 50
+}
+```
+
+En resum, utilitza `let` quan vulguis variables amb àmbit de bloc i que poden ser reassignades, i utilitza `const` quan vulguis declarar constants. Evita utilitzar `var` ja que pot portar a problemes d'àmbit.

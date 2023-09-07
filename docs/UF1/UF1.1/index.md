@@ -1,4 +1,4 @@
-# Desenvolupament web en entorn client
+# Arquitectures i eines de programació
 
 ## JavaScript: Introducció a JS
 
