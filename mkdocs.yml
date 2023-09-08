@@ -21,28 +21,25 @@ theme:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
       primary: light green
-      accent: light green
+      accent: tale
     - scheme: slate
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
       primary: light green
       accent: light green
+
 plugins:
   - social
+  - search
   
 
 extra:
   social:
     - icon: fontawesome/brands/github-alt
       link: https://github.com/prosfp/DAW_MP06
-    # - icon: fontawesome/brands/creative-common
-    #   link:
-    # - icon: fontawesome/brands/creative-commons-by
-    #   link:
-    # - icon: fontawesome/brands/creative-commons-pd
-    #   link:
-    # - icon: fontawesome/brands/creative-commons-sa
+    - icon: fontawesome/brands/creative-commons
+      link: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 
 
@@ -64,12 +61,14 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.tabbed:
+        alternate_style: true 
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
-
+        
       
       
 # Page tree
@@ -83,4 +82,4 @@ nav:
       - Identificació i aplicació dels objectes predefinits del llenguatge: UF1/UF1.3.md
       - Recursos addicionals de JS: UF1/UF1_recursos.md
 
-copyright: 2023 Pablo Ros fontawesome/brands/creative-commons-sa
+copyright: 2023 Pablo Ros

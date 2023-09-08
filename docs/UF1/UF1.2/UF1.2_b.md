@@ -1,5 +1,61 @@
 # Aplicació i verificació de la sintaxi del llenguatge
 
+## Incrustar JavaScript en un Document HTML
+
+Podeu incrustar codi JavaScript en un document HTML de tres maneres diferents i compatibles entre sí:
+
+=== "JavaScript dins del document HTML"
+
+    ```html
+    <body>
+       <h1>Pàgina HTML</h1>
+       <script>
+           alert("Això és codi JavaScript");
+       </script>
+    </body>
+    ```
+
+=== "JavaScript en un fitxer extern"
+
+    ```html
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Pàgina amb JavaScript</title>
+        <script src="arxiu.js"></script>
+    </head>
+    <body>
+        <h1>Contingut principal</h1>
+        <!-- Altres elements HTML -->
+    </body>
+    </html>
+    ```
+
+=== "JavaScript dins d'elements HTML"
+
+    ```html hl_lines="8"
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Pàgina amb JavaScript</title>
+    </head>
+    <body>
+        <h1>Contingut principal</h1>
+        <button onclick="saluda()">Fes clic aquí</button>
+        <script>
+            // Codi JavaScript incrustat
+            function saluda() {
+                alert("Hola, això és JavaScript!");
+            }
+        </script>
+    </body>
+    </html>
+    ```
+
+
+És important tenir en compte que, per eficiència en la càrrega de la pàgina, es recomana posar tot el codi JavaScript al final del document HTML, just abans de la marca `</body>`. Això assegura que la major part de la pàgina es carregui abans de l'execució del JavaScript, millorant així la velocitat de càrrega de la pàgina web.
+
+
 ## Manipulació de Dades en JavaScript
 
 En JavaScript, podem manipular dades de diverses maneres. En aquesta secció, explorarem com imprimir dades, escriure comentaris i els set tipus fonamentals de dades en JavaScript.
