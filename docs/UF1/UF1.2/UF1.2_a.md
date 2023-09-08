@@ -1,4 +1,4 @@
-# Arquitectures i eines de programació
+# Aplicació i verificació de la sintaxi del llenguatge
 
 ## JavaScript: Introducció a JS
 

@@ -1,8 +1,9 @@
-site_name: DAW-MP6 Des. Web Entorn Client (Fron-End)
+site_name: DAW-MP6 Des. Web Entorn Client (Front-End)
 
 theme:
   name: material
   features:
+    - navigation.footer
     - toc.integrate
     - navigation.tabs
     - navigation.sections
@@ -13,35 +14,41 @@ theme:
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
-    # - toc.integrate
   language: ca
   palette:
     - scheme: default
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
-      primary: teal
-      accent: purple
+      primary: light green
+      accent: light green
     - scheme: slate
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
-      primary: teal
-      accent: lime
+      primary: light green
+      accent: light green
 plugins:
   - social
+  
 
-# extra:
-#   social:
-#     - icon: fontawesome/brands/github-alt
-#       link: https://github.com/james-willett
-#     - icon: fontawesome/brands/twitter
-#       link: https://twitter.com/TheJamesWillett
-#     - icon: fontawesome/brands/linkedin
-#       link: https://www.linkedin.com/in/willettjames/
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/prosfp/DAW_MP06
+    # - icon: fontawesome/brands/creative-common
+    #   link:
+    # - icon: fontawesome/brands/creative-commons-by
+    #   link:
+    # - icon: fontawesome/brands/creative-commons-pd
+    #   link:
+    # - icon: fontawesome/brands/creative-commons-sa
+
+
 
 markdown_extensions:
-  - pymdownx.toc
+  - toc:
+      permalink: true
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
@@ -56,12 +63,24 @@ markdown_extensions:
   - attr_list
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg # Page tree
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
 
-
+      
+      
+# Page tree
 nav:
   - Inici: index.md
   - UF 1 Sintaxi i objectes predefinits del llenguatge:
-      - Selecció d'arquitectures i eines de programació: UF1/UF1.1.md
-      - Aplicació i verificació de la sintaxi del llenguatge: UF1/UF1.2.md
-      - Aplicació i verificació de la sintaxi del llenguatge: UF1/UF1.3.md
+      - Selecció d'arquitectures i eines de programació: UF1/UF1.1/UF1.1.md
+      - Aplicació i verificació de la sintaxi del llenguatge: 
+        - Introducció a JS: UF1/UF1.2/UF1.2_a.md
+        - Tipus de dades i manipulació: UF1/UF1.2/UF1.2_b.md
+      - Identificació i aplicació dels objectes predefinits del llenguatge: UF1/UF1.3.md
+      - Recursos addicionals de JS: UF1/UF1_recursos.md
+
+copyright: 2023 Pablo Ros fontawesome/brands/creative-commons-sa
