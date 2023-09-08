@@ -1,16 +1,16 @@
-# Recursos, tutorials i materials de JavaScript
+# Recursos, tutorials i materials generals de JavaScript
 
 ## Tutorials
 
 - [W3Schools JavaScript Tutorial](https://www.w3schools.com/js/)
 - [MDN JavaScript Tutorial](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
-- Ada Lovecode Videotutorials: [Enllaç al teu recurs de videotutorials]
 
 
 ## Referències
 
 - [W3Schools JavaScript Reference](https://www.w3schools.com/jsref/)
 - [MDN JavaScript Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
+
 
 ## Exercicis i proves
 
@@ -21,7 +21,6 @@
 ### Problemes per resoldre (i resolts)
 
 - [CheckiO JavaScript Exercises](https://checkio.org/)
-- A smarter way to learn JavaScript: [Enllaç al teu recurs]
 - [W3resource JavaScript Exercises (with solutions)](https://www.w3resource.com/javascript-exercises/)
 - [Exercism (with solutions)](https://exercism.io/tracks/javascript/exercises)
 
