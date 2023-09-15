@@ -81,5 +81,8 @@ nav:
         - Tipus de dades i manipulació: UF1/UF1.2/UF1.2_b.md
       - Identificació i aplicació dels objectes predefinits del llenguatge: UF1/UF1.3.md
       - Recursos addicionals de JS: UF1/UF1_recursos.md
+  - Tooling:
+      - VSCode: Tooling/vscode.md
+      - Git & Github: Tooling/github.md
 
 copyright: 2023 Pablo Ros
