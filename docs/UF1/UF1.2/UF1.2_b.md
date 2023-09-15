@@ -52,9 +52,7 @@ Podeu incrustar codi JavaScript en un document HTML de tres maneres diferents i 
     </html>
     ```
 
-
 És important tenir en compte que, per eficiència en la càrrega de la pàgina, es recomana posar tot el codi JavaScript al final del document HTML, just abans de la marca `</body>`. Això assegura que la major part de la pàgina es carregui abans de l'execució del JavaScript, millorant així la velocitat de càrrega de la pàgina web.
-
 
 ## Manipulació de Dades en JavaScript
 
@@ -65,7 +63,7 @@ En JavaScript, podem manipular dades de diverses maneres. En aquesta secció, ex
 Per imprimir dades a la consola en JavaScript, utilitzem la funció `console.log()`. Aquesta funció és útil per depurar i mostrar missatges. Aquí tens un exemple:
 
 ```javascript
-console.log("Aquest és un missatge de prova.");
+console.log('Aquest és un missatge de prova.');
 ```
 
 Aquest codi imprimirà el missatge "Aquest és un missatge de prova." a la consola.
@@ -83,23 +81,42 @@ Els comentaris són útils per documentar el teu codi i fer-lo més llegible. Ja
 - Comentaris de múltiples línies entre `/*` i `*/`:
 
 ```javascript
-/_
+/*
 Aquest és un comentari
 de múltiples línies
-_/
+*/
 ```
 
-### Tipus de Dades Fonamentals
+### Tipat dinàmic
 
-JavaScript té set tipus de dades fonamentals:
+JavaScript és un llenguatge feblement tipat i dinàmic. Les variables a JavaScript no estan associades directament a cap tipus de valor en particular, i a qualsevol variable se li pot assignar (i reassignar) valors de tots els tipus:
 
-1. **Strings (Cadenes de text):** S'utilitzen per emmagatzemar text, com "Hola, món!".
-2. **Numbers (Nombres):** Representen nombres, com 42 o 3.14.
-3. **Booleans (Valors booleans):** Representen valors de veritat, `true` o `false`.
-4. **Null:** Representa un valor nul o buit.
-5. **Undefined:** Representa una variable sense valor assignat.
-6. **Symbol (Símbol):** S'utilitza per a la creació de símbols únics.
-7. **Objecte (Objecte):** S'utilitza per emmagatzemar col·leccions de dades i funcions.
+```javascript
+let foo = 42; // foo ara és un número
+foo = 'bar'; // foo ara és una cadena de text
+foo = true; // foo ara és un booleà
+```
+
+### Tipus de Dades
+
+### Estructures i tipus de dades
+
+L'últim estàndard ECMAScript defineix nou tipus:
+
+Sis tipus de dades primitives (els tipus de dades més bàsics i senzills en un llenguatge), controlades per l'operador `typeof`:
+
+- **Undefined**: indica que una variable existeix però no té valor assignat
+- **Boolean**
+- **Number**
+- **String**
+- **BigInt**
+- **Symbol**
+
+**Null**: Indica que una variable existeix i que s'ha configurat com a buida o sense valor. Null és un valor vàlid en JavaScript i pot ser utilitzat en càlculs o comparacions com qualsevol altre valor. Per contra, undefined no es pot utilitzar de la mateixa manera ja que indica una falta de valor o assignació.
+
+**Object**: són estructures de dades que poden contenir múltiples valors i funcions. Estan formats per un conjunt de parells clau-valor, on el clau és una cadena de text (anomenada "proprietat") i el valor pot ser qualsevol tipus de dada, inclòs un altre objecte. També s'utilitza per estructures de dades com: new Object, new Array, new Map, new Set, new WeakMap, new WeakSet, new Date i gairebé tot fet amb la paraula clau new.
+
+**Function**: són blocs reutilitzables de codi que poden acceptar arguments i realitzar tasques específiques. Les funcions poden ser assignades a variables, passades com a arguments a altres funcions i fins i tot retornades com valors de d'altres funcions. Les funcions també tenen propietats i mètodes especials, com ara length (que indica el nombre d'arguments esperats) i call (que permet cridar una funció amb un objecte específic com a context).
 
 ### Operadors Aritmètics Bàsics
 
@@ -140,7 +157,12 @@ L'operador de resta, a vegades anomenat mòdul o resta, retorna el número que q
 
 En JavaScript, les variables són utilitzades per emmagatzemar dades. Hi ha diferents maneres de declarar variables, com `var`, `let`, i `const`, i cadascuna té les seves particularitats. En aquesta pàgina, explorarem com declarar variables i les diferències clau entre `var`, `let`, i `const`.
 
-### `var`: Declaració de Variables Tradicional
+**VAR** Declaració de Variables Tradicional
+
+- La declaració var és la més antiga i amplament utilitzada abans de l'aparició d'let i const.
+- Les variables declarades amb var són funció-scòpic, la qual cosa significa que només tenen visibilitat dins de la funció en què es declaren.
+- Es pot redeclarar la mateixa variable var sense cap advertència.
+- Les variables var apliquen "hoisting", la qual cosa significa que es poden utilitzar abans de la seva declaració.
 
 ```javascript
 function exempleVar() {
@@ -152,7 +174,12 @@ function exempleVar() {
 }
 ```
 
-### `let`: Declaració de Variables Bloc
+**LET** Declaració de Variables Bloc
+
+- La declaració let es va introduir a ES6 (ECMAScript 2015) i és preferible a var.
+- Les variables declarades amb let són bloc-scòpic, la qual cosa significa que només tenen visibilitat dins del bloc (com ara una funció o un bucle) en què es declaren.
+- No es pot redeclarar la mateixa variable let dins del mateix bloc.
+- Les variables let també estan hissades, però només estan disponibles després de la seva declaració.
 
 ```javascript
 function exempleLet() {
@@ -164,13 +191,19 @@ function exempleLet() {
 }
 ```
 
-### `const`: Declaració de Constants
+**CONST** Declaració de Constants
+
+- La declaració const també es va introduir a ES6 i s'utilitza per declarar variables amb valors constants que no canviaran.
+  Les variables declarades amb const també són bloc-scòpic com let.
+- No es pot reassignar un nou valor a una variable const després de la seva inicialització. No obstant això, si és un objecte o un array, els seus continguts es poden modificar.
+- Les variables const també estan hissades i només estan disponibles després de la seva declaració.
 
 ```javascript
 function exempleConst() {
   const z = 50;
-  if (true) {
+  if (true)
     // No es pot fer això: z = 60; (dóna error)
+    z = 60;
   }
   console.log(z); // Imprimeix 50
 }

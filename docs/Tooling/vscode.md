@@ -12,23 +12,25 @@ Visual Studio Code (VSCode) és una eina desenvolupada per Microsoft que es pot 
 
 3. **Obre VSCode**: Un cop instal·lat, obre Visual Studio Code des del teu menú d'aplicacions o fent clic a l'icòna a l'escriptori.
 
+[![Tutorial de VSCode](https://img.youtube.com/vi/B-s71n0dHUk/maxresdefault.jpg){width=500}](https://www.youtube.com/watch?v=B-s71n0dHUk)
+
 ## Extensions Essencials per JavaScript
 
-VSCode es pot personalitzar amb extensions que faciliten el teu flux de treball en JavaScript. Aquí tens algunes extensions essencials:
+VSCode es pot personalitzar amb extensions que faciliten el teu flux de treball en JavaScript. Aquí tens algunes extensions de gran utilitat que pots mirar d'integrar en la teva configuració:
 
-1. **ESLint**: Per a la validació del codi JavaScript i les pràctiques de programació.
+- **ESLint**: Per a la validació del codi JavaScript i les pràctiques de programació.
 
-2. **Prettier**: Per al formateig automàtic del codi, mantenint un estil consistent.
+- **Prettier**: Per al formateig automàtic del codi, mantenint un estil consistent.
+  <!-- prettier-ignore -->
+    - [Com formatejar codi amb Prettier a VSCode](https://www.digitalocean.com/community/tutorials/how-to-format-code-with-prettier-in-visual-studio-code-es)
 
-3. **Debugger for Chrome**: Per a la depuració del codi JavaScript directament des de VSCode.
+- **GitLens**: Per a una millor integració amb el sistema de control de versions Git.
 
-4. **GitLens**: Per a una millor integració amb el sistema de control de versions Git.
+- **JavaScript (ES6) code snippets**: Per a generar ràpides plantilles de codi JavaScript.
 
-5. **JavaScript (ES6) code snippets**: Per a generar ràpides plantilles de codi JavaScript.
+- **Live Server**: Per a servir ràpidament els teus arxius HTML, CSS i JavaScript amb un servidor local de desenvolupament.
 
-6. **Live Server**: Per a servir ràpidament els teus arxius HTML, CSS i JavaScript amb un servidor local de desenvolupament.
-
-7. **Bracket Pair Colorizer**: Per a una millor visualització i organització de les parelles de claus en JavaScript.
+- **Bracket Pair Colorizer**: Per a una millor visualització i organització de les parelles de claus en JavaScript.
 
 ## Configuració Personalitzada
 
