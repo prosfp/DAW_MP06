@@ -10,6 +10,8 @@ Benvingut al curs de desenvolupament web Front-End. Aquí tens un llistat de les
 
 ## UF2 - Estructures definides pel programador i objectes
 
+- [Funcions a JS](./UF2/UF2.1/UF2.1.1_Funcions.md)
+
 ## UF3 - Comunicació asíncrona client-servidor
 
 ## UF4 - Esdeveniments, formularis i DOM
