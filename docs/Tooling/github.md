@@ -109,6 +109,8 @@ Aquesta guia explica com els alumnes poden actualitzar els seus repositoris pers
     git push origin main
     ```
 
+Fes un cop d'ull a [Syncing with Git](https://www.atlassian.com/es/git/tutorials/syncing) per entendre les principals comandes de sincronització a GIT
+
 ## Recursos per aprendre
 
 ### TOP
