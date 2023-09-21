@@ -41,6 +41,74 @@ En el món de la programació i el desenvolupament de programari, un **repositor
 
 Amb aquesta descripció, els usuaris podran entendre millor les diferències entre Git i GitHub i com funcionen junts en el món del desenvolupament de programari.
 
+## Github Classroom
+
+### Actualitzar repositori personal (alumne) amb canvis d'un repositori remot (profe)
+
+Aquesta guia explica com els alumnes poden actualitzar els seus repositoris personals (Repo Alumne) amb les noves carpetes i exercicis afegits al repositori original del professor (Repo Profe). En cas per exemple que s'afegeixin exercicis, aquests apareixeran directament sobre el mateix repositori en el que estàs treballant.
+
+1.  **Clonar el Repositori Personal (Repo Alumne):**
+
+    Si has acceptat "l'assginment" a través de l'enllaç del professor, això és fa automàticament. Hauràs clonat el repositori al teu compte de Github. Pots clonar-lo per treballar en local amb VSCode. Pots fer servir la propia IDE de VSCode o utilitzar aquesta comanda per fer-ho:
+
+    ```bash
+    git clone <URL_del_repo_alumne>
+    ```
+
+2.  **Afegir el Repositori del Professor com a Remot:**
+
+    Afegir el repositori original del professor (Repo Profe) com a remot permet obtenir els canvis del repositori remot, en aquest cas per exemple del professor. Utilitza aquesta comanda per afegir el remot:
+
+    ```bash
+    git remote add profe <URL_del_repo_profe>
+    ```
+
+3.  **Obtenir els Canvis del Repositori del Professor:**
+
+    Per obtenir els canvis del repositori del professor, els alumnes han de fer un "fetch" de la branca que desitgin (normalment, "main" on s'afegeixen nous exercicis). Utilitza aquesta comanda
+
+    ```bash
+    git fetch profe main
+    ```
+
+    Aquí hem anomenat aquesta branca remota "profe" però tu pots decidir com dir-li.
+
+4.  **Revisar els Canvis Abans del Merge:**
+
+    Abans de fusionar els canvis del professor amb el seu repositori personal, és recomanable revisar-los. Utilitza aquesta comanda per veure les diferències entre les branques:
+
+    ```bash
+    git diff main..profe/main
+    ```
+
+    Això mostra les diferències entre les dues branques i permet als alumnes veure els canvis abans de prendre una decisió.
+
+5.  **Fer el Merge Utilitzant `--allow-unrelated-histories`:**
+
+    Un cop hagis revisat els canvis i estiguis satisfet amb ells, pots fer el merge utilitzant l'opció `--allow-unrelated-histories`. Aquesta opció permet la fusió de dues històries que es consideren "sense relació" i és necessària quan afegim nous continguts al repositori del professor. Utilitza aquesta comanda:
+
+    ```bash
+    git merge --allow-unrelated-histories profe/main
+    ```
+
+    El motiu d'utilitzar aquesta opció és que els canvis es consideren sense relació ja que la branca del professor i la branca personal dels alumnes no han compartit canvis en el passat.
+
+6.  **Confirmar els Canvis Locals\*\*:**
+
+    Després de fer el merge, podràs confirmar els canvis locals:
+
+    ```bash
+    git commit -am "Actualització des de la branca del professor"
+    ```
+
+7.  **Enviar els Canvis al Repositori Personal Remot:**
+
+    Finalment, pots enviar els canvis al repositori personal remot (Repo Alumne) per posar-lo al dia i mantenir-lo sincronitzat:
+
+    ```bash
+    git push origin main
+    ```
+
 ## Recursos per aprendre
 
 ### TOP
