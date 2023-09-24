@@ -9,3 +9,5 @@ function sumar() {
   // Mostra el resultat
   document.getElementById('resultat').textContent = resultat;
 }
+isard@ubuntu:~/Escriptori/DAW/Wiki/DAW_MP06$ git push origin gh-pages
+error: l'especificació de referència font gh-pages no coincideix amb cap referència

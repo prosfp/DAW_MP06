@@ -88,6 +88,7 @@ nav:
           - Math: UF1/UF1.3/UF1.3.4_Math.md
           - RegExp: UF1/UF1.3/UF1.3.5_RegExp.md
           - JSON: UF1/UF1.3/UF1.3.6_JSON.md
+          - Interacció amb el navegador (DOM): UF1/UF1.3/UF1.3.7_DOM_Objects.md
       - Recursos addicionals: UF1/UF1_recursos.md
   - UF 2 Programació amb llistes, objectes i funcions definides per l’usuari:
       - Funcions: UF2/UF2.1/UF2.1.1_Funcions.md
