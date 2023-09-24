@@ -1,72 +1,55 @@
-# Identificació i aplicació dels objectes predefinits del llenguatge
+L'objecte `Date` és una part important de JavaScript que s'utilitza per a la gestió de dates i hores. Permet crear i manipular dates, calcular intervals de temps i realitzar diverses operacions relacionades amb el temps.
 
-## Number
+**Creació d'un Objecte `Date`**
 
-**L'Objecte `Number` a JavaScript**
+Pots crear un objecte `Date` de diverses maneres a JavaScript:
 
-L'objecte `Number` a JavaScript és un objecte incorporat que s'utilitza per treballar amb valors numèrics i realitzar operacions matemàtiques. Tot i que els números a JavaScript també es poden representar com a valors primitius (números), l'objecte `Number` proporciona mètodes i propietats addicionals per realitzar tasques específiques amb números.
+1. **Utilitzant el Constructor `Date()`**:
 
-**Creació d'un Objecte Number**
+   ```javascript
+   const avui = new Date(); // Crea un objecte Date que representa la data i hora actual.
+   ```
 
-Podeu crear un objecte `Number` utilitzant el constructor `Number()` o simplement declarant un valor numèric:
+2. **Especificant una Data i Hora**:
 
-```javascript
-const num1 = new Number(42); // Crear un objecte Number
-const num2 = 3.14; // Declarar un valor numèric (primitiu)
-```
+   ```javascript
+   const dataPersonalitzada = new Date('2023-09-24T10:30:00'); // Crea un objecte Date per a una data i hora específiques.
+   ```
 
-**Propietats de l'Objecte Number**
+**Propietats i Mètodes Importants de l'Objecte Date**
 
-L'objecte `Number` té algunes propietats útils que podeu utilitzar:
+L'objecte `Date` proporciona una sèrie de propietats i mètodes per a treballar amb dates i hores. Aquí tens alguns exemples:
 
-- `Number.MAX_VALUE`: El valor numèric més gran representable a JavaScript.
-- `Number.MIN_VALUE`: El valor numèric més petit representable a JavaScript.
-- `Number.POSITIVE_INFINITY`: Representa l'infinit positiu.
-- `Number.NEGATIVE_INFINITY`: Representa l'infinit negatiu.
-- `Number.NaN`: Representa "No és un número" (NaN).
+- `getFullYear()`: Retorna l'any de la data.
 
-```javascript
-console.log(Number.MAX_VALUE); // 1.7976931348623157e+308
-console.log(Number.MIN_VALUE); // 5e-324
-console.log(Number.POSITIVE_INFINITY); // Infinity
-console.log(Number.NEGATIVE_INFINITY); // -Infinity
-console.log(Number.NaN); // NaN
-```
+  ```javascript
+  const avui = new Date();
+  const any = avui.getFullYear();
+  console.log(any); // Mostra l'any actual
+  ```
 
-**Mètodes de l'Objecte Number**
+- `getMonth()`: Retorna el mes de la data (de 0 a 11).
 
-L'objecte `Number` també proporciona mètodes per realitzar operacions comunes amb números:
+  ```javascript
+  const avui = new Date();
+  const mes = avui.getMonth();
+  console.log(mes); // Mostra el mes actual (0 correspon a gener, 11 a desembre)
+  ```
 
-- `toFixed()`: Converteix un número en una cadena, arrodonint-lo a un nombre específic de decimals.
-- `toPrecision()`: Converteix un número en una cadena, especificant el nombre total de dígits (incloent decimals).
-- `toString()`: Converteix un número en una cadena.
-- `parseFloat()`: Converteix una cadena en un nombre de punt flotant.
-- `parseInt()`: Converteix una cadena en un nombre enter.
-- `isNaN()`: Verifica si un valor és NaN (No és un número).
+- `getDate()`: Retorna el dia del mes de la data.
 
-```javascript
-const numero = 123.456789;
+  ```javascript
+  const avui = new Date();
+  const dia = avui.getDate();
+  console.log(dia); // Mostra el dia del mes actual
+  ```
 
-console.log(numero.toFixed(2)); // "123.46"
-console.log(numero.toPrecision(4)); // "123.5"
-console.log(numero.toString()); // "123.456789"
-console.log(parseFloat('3.14')); // 3.14
-console.log(parseInt('42')); // 42
-console.log(isNaN('Hola')); // true (no es pot convertir en número)
-```
+**Recursos per a l'Objecte Date**
 
-**Propietats i Mètodes Estàtics**
+1. [MDN Web Docs - Date](https://developer.mozilla.org/ca/docs/Web/JavaScript/Reference/Global_Objects/Date)
 
-L'objecte `Number` també té propietats i mètodes estàtics que no estan relacionats amb instàncies específiques. Alguns exemples són:
+2. [W3Schools - JavaScript Date Reference](https://www.w3schools.com/jsref/jsref_obj_date.asp)
 
-- `Number.parseFloat()`: Converteix una cadena en un nombre de punt flotant.
-- `Number.parseInt()`: Converteix una cadena en un nombre enter.
-- `Number.isNaN()`: Verifica si un valor és NaN (No és un número).
-- `Number.isFinite()`: Verifica si un valor és un nombre finit.
+3. [ECMAScript Language Specification - Date Object](https://tc39.es/ecma262/#sec-date-objects)
 
-```javascript
-console.log(Number.parseFloat('3.14')); // 3.14
-console.log(Number.parseInt('42')); // 42
-console.log(Number.isNaN('Hola')); // false (no és NaN)
-console.log(Number.isFinite(5)); // true (és finit)
-```
+4. [JavaScript.Info - Date and Time](https://javascript.info/date)

@@ -1,7 +1,3 @@
-# Number
-
-**L'Objecte `Number` a JavaScript**
-
 L'objecte `Number` a JavaScript és un objecte incorporat que s'utilitza per treballar amb valors numèrics i realitzar operacions matemàtiques. Tot i que els números a JavaScript també es poden representar com a valors primitius (números), l'objecte `Number` proporciona mètodes i propietats addicionals per realitzar tasques específiques amb números.
 
 **Creació d'un Objecte Number**
@@ -68,3 +64,13 @@ console.log(Number.parseInt('42')); // 42
 console.log(Number.isNaN('Hola')); // false (no és NaN)
 console.log(Number.isFinite(5)); // true (és finit)
 ```
+
+**Recursos**
+
+[MDN Web Docs - Number](https://developer.mozilla.org/ca/docs/Web/JavaScript/Reference/Global_Objects/Number)
+
+[W3Schools - JavaScript Number Reference](https://www.w3schools.com/jsref/jsref_obj_number.asp)
+
+[ECMAScript Language Specification - Number Object](https://tc39.es/ecma262/#sec-number-object)
+
+[JavaScript.Info - Numbers](https://javascript.info/number)
