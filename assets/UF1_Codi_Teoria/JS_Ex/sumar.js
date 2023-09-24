@@ -10,12 +10,12 @@ function sumar() {
   document.getElementById("resultat").textContent = resultat;
 }
 
-// Create a function with regex that matches email address
-function validateEmail(email) {
-  var re = /\S+@\S+\.\S+/;
-  return re.test(email);
-}
+// // Create a function with regex that matches email address
+// function validateEmail(email) {
+//   var re = /\S+@\S+\.\S+/;
+//   return re.test(email);
+// }
 
-console.log(validateEmail("pablo.ros@cirvianum.cat"));
-console.log(validateEmail("pablo"));
-console.log(validateEmail("pablo@cirvianum"));
+// console.log(validateEmail("pablo.ros@cirvianum.cat"));
+// console.log(validateEmail("pablo"));
+// console.log(validateEmail("pablo@cirvianum"));
