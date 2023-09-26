@@ -1,6 +1,12 @@
 # Interacció amb el Navegador en JavaScript
 
-JavaScript ofereix una gamma d'objectes que permeten el control del navegador on s'està executant el codi JavaScript. Aquests objectes proporcionen informació sobre el navegador, la pantalla i les finestres del navegador, així com la capacitat de generar text i elements HTML des del codi.
+Tot i que estan relacionats, hem de reconèixer la diferència entre el Navegador (Browser) i el DOM (Document Object Model).
+
+- **DOM (Model d'Objecte del Document)**: És una interfície de programació que representa la estructura d'un document web (com ara una pàgina HTML) com una estructura d'arbre. Els programadors poden utilitzar JavaScript per accedir i modificar aquesta estructura per canviar el contingut i la interacció de la pàgina web.
+
+- **Navegador**: És l'aplicació de programari que els usuaris utilitzen per visualitzar i interactuar amb pàgines web. A través de JS podem utilitzar alguns objectes per interactuar amb ell proporcionant informació sobre el navegador, la pantalla i les finestres del navegador...
+
+Més endavant aprofundirem en les accions sobre el DOM que ens permeten interactuar sobretot amb les continguts del web. Vegem ara de quina manera alguns objectes ens permeten interactuar sobretot amb els nostre navegador:
 
 ## L'Objecte `Navigator`
 
