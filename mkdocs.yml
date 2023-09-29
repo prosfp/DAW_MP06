@@ -80,6 +80,7 @@ nav:
               - Estructures condicionals: UF1/UF1.2/UF1.2.3_Condicionals.md
               - Estructures repetitives: UF1/UF1.2/UF1.2.4_Bucles.md
           - Scope: UF1/UF1.2/UF1.2.5_Scope.md
+          - Gestió d'errors: UF1/UF1.2/UF1.2.6_Gestio_Errors.md
       - Identificació i aplicació dels objectes predefinits del llenguatge:
           - Objectes propis de JS: UF1/UF1.3/UF1.3_Objectes_predefinits.md
           - Number: UF1/UF1.3/UF1.3.1_Number.md
@@ -93,6 +94,7 @@ nav:
   - UF 2 Programació amb llistes, objectes i funcions definides per l’usuari:
       - Funcions: UF2/UF2.1/UF2.1.1_Funcions.md
       - Objectes: UF2/UF2.1/UF2.1.2_Objectes.md
+      - Moduls: UF2/UF2.1/UF2.1.3_Moduls.md
   - Tooling:
       - VSCode: Tooling/vscode.md
       - Git & Github: Tooling/github.md
