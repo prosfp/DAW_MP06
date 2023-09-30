@@ -10,7 +10,7 @@ En lloc d'escriure tot el programa dins de my_app.js, els seus components són d
 
 ## Implementacions de Mòduls a JavaScript: Node.js vs. ES6
 
-![CJS vs ESM](/docs/UF1/img/commonjs-vs-esm.png)
+![CJS vs ESM](../img/commonjs_vs_esm.png)
 Abans de començar, cal destacar que hi ha múltiples maneres d'implementar mòduls segons l'entorn d'execució en el qual el teu codi s'estigui executant. A JavaScript, hi ha dos entorns d'execució principals i cadascun té una implementació de mòduls preferida:
 
 1. L'entorn d'execució de Node i la sintaxi `module.exports` i `require()`.
