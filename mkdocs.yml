@@ -94,6 +94,7 @@ nav:
   - UF 2 Programació amb llistes, objectes i funcions definides per l’usuari:
       - Funcions: UF2/UF2.1/UF2.1.1_Funcions.md
       - Objectes: UF2/UF2.1/UF2.1.2_Objectes.md
+      - Arrays: UF2/UF2.1/UF2.1.4_Arrays.md
       - Modules: UF2/UF2.1/UF2.1.3_Moduls.md
   - Tooling:
       - VSCode: Tooling/vscode.md
