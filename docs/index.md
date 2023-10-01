@@ -21,3 +21,4 @@ Benvingut al curs de desenvolupament web Front-End. Aquí tens un llistat de les
 
 - [VSCode](./Tooling/vscode.md)
 - [Git & Github](./Tooling/github.md)
+- [Jest](./Tooling/jest.md)
