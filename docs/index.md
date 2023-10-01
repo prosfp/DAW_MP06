@@ -12,7 +12,7 @@ Benvingut al curs de desenvolupament web Front-End. Aquí tens un llistat de les
 
 - [Funcions a JS](./UF2/UF2.1/UF2.1.1_Funcions.md)
 - [Objectes a JS](./UF2/UF2.1/UF2.1.2_Objectes.md)
-- [Arrays a JS](./UF2/UF2.2/UF2.1.4_Arrays.md)
+- [Arrays a JS](./UF2/UF2.1/UF2.1.4_Arrays.md)
 - [Mòduls a JS](./UF2/UF2.1/UF2.1.3_Moduls.md)
 
 ## UF3 - Comunicació asíncrona client-servidor
