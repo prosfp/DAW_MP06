@@ -98,5 +98,6 @@ nav:
   - Tooling:
       - VSCode: Tooling/vscode.md
       - Git & Github: Tooling/github.md
+      - Jest: Tooling/jest.md
 
 copyright: 2023 Pablo Ros
