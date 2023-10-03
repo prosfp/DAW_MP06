@@ -462,7 +462,7 @@ const elements = [5, 3, 1, 4, 2];
 const sortedArray = elements.toSorted((a, b) => b - a); // Retorna [5, 4, 3, 2, 1], sense modificar elements
 ```
 
-## Funcions d'Array
+## FUNCIONS d'Array (Array functions)
 
 ### Què són les funcions d'array?
 
