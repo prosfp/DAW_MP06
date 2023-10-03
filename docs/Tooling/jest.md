@@ -13,6 +13,8 @@ A continuació et deixo una llista de videos amb la configuració que hem fet a 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLCXMiNs5KZ-nUiM0NfOxC1Yu7QLMfcfSP" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+[Node.js installation tutorial for Ubuntu 22.04](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-22-04)
+
 Per obtenir més informació sobre Jest, consulta la [documentació oficial](https://jestjs.io/).
 
 Per aprendre més sobre les funcions disponibles a Jest, consulta la [documentació de l'API de Jest](https://jestjs.io/docs/api).
