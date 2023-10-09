@@ -25,9 +25,9 @@ const sistemaOperatiu = navigator.platform;
 const agentUsuari = navigator.userAgent;
 const javaHabilitat = navigator.javaEnabled();
 
-console.log('Sistema Operatiu:', sistemaOperatiu);
+console.log("Sistema Operatiu:", sistemaOperatiu);
 console.log("Agent d'Usuari:", agentUsuari);
-console.log('Java Habilitat?', javaHabilitat);
+console.log("Java Habilitat?", javaHabilitat);
 ```
 
 Per obtenir més informació sobre l'objecte `Navigator`, podeu consultar la [referència a MDN](https://developer.mozilla.org/ca/docs/Web/API/Navigator).
@@ -49,9 +49,9 @@ const amplePantalla = screen.width;
 const alcadaPantalla = screen.height;
 const profunditatColor = screen.colorDepth;
 
-console.log('Amplada de la Pantalla:', amplePantalla);
-console.log('Alçada de la Pantalla:', alcadaPantalla);
-console.log('Profunditat de Color:', profunditatColor);
+console.log("Amplada de la Pantalla:", amplePantalla);
+console.log("Alçada de la Pantalla:", alcadaPantalla);
+console.log("Profunditat de Color:", profunditatColor);
 ```
 
 Per a més detalls sobre l'objecte `Screen`, podeu consultar la [referència a MDN](https://developer.mozilla.org/ca/docs/Web/API/Screen).
@@ -62,17 +62,15 @@ L'objecte `Window` representa cada finestra oberta del navegador i permet gestio
 
 ### Operacions amb Finestres
 
-És clar, aprofundirem en les operacions que es poden realitzar amb les finestres (windows) en JavaScript. Les finestres són objectes importants per a la interacció amb el navegador i l'entorn del navegador. Aquí tens una descripció detallada:
-
 **Operacions Bàsiques amb Finestres**
 
 **Obrir una Finestra Emergent (Pop-up)**: Pots utilitzar el mètode `window.open()` per obrir una finestra emergent. Aquesta funció pot prendre diversos paràmetres com la URL que es mostrarà a la finestra emergent, el nom de la finestra, les dimensions, i molts altres. Exemple:
 
 ```javascript
 const novaFinestra = window.open(
-  'https://www.exemple.com',
-  'NomDeLaFinestra',
-  'width=500,height=300'
+  "https://www.exemple.com",
+  "NomDeLaFinestra",
+  "width=500,height=300"
 );
 ```
 
@@ -87,7 +85,7 @@ novaFinestra.close();
 - Redirigir la Finestra Actual: Pots canviar la URL de la finestra actual mitjançant `window.location`. Això redirigirà l'usuari a una nova pàgina web. Exemple:
 
   ```javascript
-  window.location.href = 'https://www.novaweb.com';
+  window.location.href = "https://www.novaweb.com";
   ```
 
 - Recarregar la Pàgina: Utilitza `window.location.reload()` per recarregar la pàgina actual. Exemple:
@@ -125,19 +123,19 @@ Podeu seleccionar elements HTML pel seu id, classe o etiqueta.
 **Exemple: Selecció d'un Element per ID**
 
 ```javascript
-const element = document.getElementById('id-de-l-element');
+const element = document.getElementById("id-de-l-element");
 ```
 
 **Exemple: Selecció d'Elements per Classe**
 
 ```javascript
-const elements = document.getElementsByClassName('nom-de-classe');
+const elements = document.getElementsByClassName("nom-de-classe");
 ```
 
 **Exemple: Selecció d'Elements per Etiqueta**
 
 ```javascript
-const paragrafs = document.getElementsByTagName('p');
+const paragrafs = document.getElementsByTagName("p");
 ```
 
 Per descomptat, aquí tens la informació sobre els objectes `History` i `Location`:
@@ -195,13 +193,13 @@ A continuació, es mostren algunes propietats i mètodes importants de l'objecte
 - `assign(url)`: Carrega una nova URL especificada.
 
   ```javascript
-  location.assign('https://www.example.com'); // Carrega una nova URL
+  location.assign("https://www.example.com"); // Carrega una nova URL
   ```
 
 - `replace(url)`: Carrega una nova URL i substitueix l'actual a l'historial de navegació.
 
   ```javascript
-  location.replace('https://www.example.com'); // Carrega una nova URL i la substitueix a l'historial
+  location.replace("https://www.example.com"); // Carrega una nova URL i la substitueix a l'historial
   ```
 
 Aquests són alguns dels mètodes i propietats més comuns que pots utilitzar amb els objectes `History` i `Location` per gestionar l'historial de navegació i controlar la URL actual en una aplicació web.
