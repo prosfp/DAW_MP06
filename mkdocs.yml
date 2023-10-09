@@ -79,7 +79,7 @@ nav:
           - Sentencies i estructures de control:
               - Estructures condicionals: UF1/UF1.2/UF1.2.3_Condicionals.md
               - Estructures repetitives: UF1/UF1.2/UF1.2.4_Bucles.md
-          - Scope: UF1/UF1.2/UF1.2.5_Scope_Ambit.md
+          - Scope/Àmbit: UF1/UF1.2/UF1.2.5_Scope_Ambit.md
           - Gestió d'errors: UF1/UF1.2/UF1.2.6_Gestio_Errors.md
       - Identificació i aplicació dels objectes predefinits del llenguatge:
           - Objectes propis de JS: UF1/UF1.3/UF1.3_Objectes_predefinits.md

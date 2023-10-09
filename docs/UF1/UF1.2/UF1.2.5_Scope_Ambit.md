@@ -227,4 +227,8 @@ console.log(comptadorB()); // 1 (un altre comptador independent)
 
     Les clausures són útils per a moltes altres coses també, com gestionar estat en funcions d'ajust, crear **constructors d'objectes amb mètodes privats**, i molt més.
 
-Teniu una molt bona explicació de closures en aquest vídeo: [Closures en JavaScript](https://www.youtube.com/watch?v=1JsJx1x35c0) i el segÜent article [Ámbito o Alcance léxico (Closures)](https://es.javascript.info/closure#ambito-o-alcance-lexico).
+Teniu una molt bona explicació en aquest vídeo:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Whtg9XTn_7Y?si=4iNp66DfkLyjYuwe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+També de manera detallada al segÜent article [Ámbito o Alcance léxico (Closures)](https://es.javascript.info/closure#ambito-o-alcance-lexico).
