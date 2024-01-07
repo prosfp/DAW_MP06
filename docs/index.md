@@ -15,7 +15,7 @@ Benvingut al curs de desenvolupament web Front-End. Aquí tens un llistat de les
 - [Arrays a JS](./UF2/UF2.1/UF2.1.4_Arrays.md)
 - [Mòduls a JS](./UF2/UF2.1/UF2.1.3_Moduls.md)
 
-## UF3 - Comunicació asíncrona client-servidor
+## UF3 - 
 
 ## UF4 - Esdeveniments, formularis i DOM
 

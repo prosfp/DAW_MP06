@@ -29,6 +29,8 @@ theme:
       primary: light green
       accent: light green
 
+dev_addr: '0.0.0.0:8080'
+
 plugins:
   - social
   - search
