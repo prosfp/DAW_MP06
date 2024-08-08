@@ -117,6 +117,8 @@ Fes un cop d'ull a [Syncing with Git](https://www.atlassian.com/es/git/tutorials
 
 1. **Codecademy**: Codecademy ofereix un [curs gratuït sobre Git](https://www.codecademy.com/learn/learn-git) que cobreix els conceptes bàsics i les millors pràctiques.
 
+2. **git - la guía sencilla**: Aquesta guia senzilla i pràctica de Roger Dudler és una excel·lent introducció a Git amb una proposta molt neta i entenedora [Llegir la guia](http://rogerdudler.github.io/git-guide/index.es.html)
+
 2. **Learn the Basics of Git in Under 10 Minutes**: Un article ràpid i pràctic de FreeCodeCamp que introdueix els conceptes bàsics de Git en menys de 10 minuts. [Llegir l'article](https://www.freecodecamp.org/news/learn-the-basics-of-git-in-under-10-minutes-da548267cc91/)
 
 3. **Tutorials de Git a W3Schools**: W3Schools ofereix una sèrie de tutorials sobre Git que cobreixen diversos aspectes i comandes. [Explora els tutorials](https://www.w3schools.com/git/default.asp?remote=github)
